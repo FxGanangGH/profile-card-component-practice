@@ -1,0 +1,15 @@
+{
+  "profile": {
+    "basic": {
+      "firstName": "victor",
+      "lastName": "crest",
+      "age": 26,
+      "city": "london"
+    },
+    "social": {
+      "followers": 80000,
+      "likes": 803000,
+      "photos": 1400
+    }
+  }
+}
