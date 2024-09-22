@@ -6,7 +6,7 @@ export const useProfileStore = defineStore('data', {
     user: {
       profile: {
         basic: {
-          firstName: '',
+          firstName: 'victor',
           lastName: '',
           age: 0,
           city: ''

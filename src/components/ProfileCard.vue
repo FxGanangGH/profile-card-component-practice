@@ -9,7 +9,11 @@
       class="absolute z-0 h-bg-profile w-bg-profile translate-x-profile-bot-mobile translate-y-profile-bot-mobile bg-profile-bot bg-center bg-no-repeat lg:translate-x-profile-bot-desktop lg:translate-y-profile-bot-desktop lg:scale-125"
     />
     <div class="z-10 w-10/12 max-w-md">
-      <img class="size-full rounded-t-xl" src="/images/bg-pattern-card.svg" />
+      <img
+        class="size-full rounded-t-xl"
+        alt="background pattern"
+        src="/images/bg-pattern-card.svg"
+      />
       <div
         class="relative flex size-full flex-col items-center justify-center rounded-b-xl bg-white"
       >
@@ -53,6 +57,7 @@ import { useProfileStore } from "@/stores/profileStore";
 import type { Social } from "@/stores/interface";
 
 const data = useProfileStore();
+
 const socials = ["followers", "likes", "photos"] as (keyof Social)[];
 
 const formatNumber = (num: number) => {
